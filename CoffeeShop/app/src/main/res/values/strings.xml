@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Coffee Shop</string>
+
+    <!-- activity_login -->
+    <string name="loginHeadingText">Login Page</string>
+    <string name="loginUsernameText">Enter Username</string>
+    <string name="loginPasswordText">Enter Password</string>
+    <string name="loginButtonText">Login</string>
+    <string name="registerButtonText">Register</string>
+
+    <!-- Login_Activity -->
+    <string name="loginSuccessful">Login Successful…</string>
+    <string name="loginFailed">Login Failed…</string>
+
+    <string-array name="countries">
+        <item>India</item>
+        <item>America</item>
+        <item>Australia</item>
+        <item>Singapore</item>
+    </string-array>
+
+</resources>
