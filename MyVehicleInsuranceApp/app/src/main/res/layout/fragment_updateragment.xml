@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Updateragment"
+    android:orientation="vertical"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update your claim"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:padding="3dp"
+        android:layout_margin="3dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter your id"
+        android:padding="3dp"
+        android:layout_margin="3dp"
+        android:layout_marginHorizontal="5dp"
+        android:paddingHorizontal="5dp"
+        android:id="@+id/update_text_id"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter status"
+        android:padding="3dp"
+        android:layout_margin="3dp"
+        android:layout_marginHorizontal="5dp"
+        android:paddingHorizontal="5dp"
+        android:id="@+id/update_text_status"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="5dp"
+        android:paddingHorizontal="5dp"
+        android:text="Update"
+        android:id="@+id/updateBtn"
+        />
+
+</LinearLayout>
